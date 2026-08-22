@@ -1,0 +1,56 @@
+{
+  "last_node_id": 2,
+  "last_link_id": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "TSCPromptWriterPanel",
+      "pos": [80, 80],
+      "size": [420, 560],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {"name": "prompt", "type": "STRING", "links": [1]},
+        {"name": "status", "type": "STRING", "links": null}
+      ],
+      "properties": {"Node name for S&R": "TSCPromptWriterPanel"},
+      "widgets_values": [
+        "Qwen3.8-27B-UD-Q2_K_XL",
+        "GC极简杂志海报（gc-minimal-zine-poster）",
+        "一位穿红裙的女孩站在上海外滩",
+        "9:16 (Portrait Widescreen)",
+        "生成提示词",
+        "我的提示词",
+        "（暂无收藏）",
+        ""
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CLIPTextEncode",
+      "pos": [560, 120],
+      "size": [400, 200],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {"name": "clip", "type": "CLIP", "link": null},
+        {"name": "text", "type": "STRING", "link": 1, "widget": {"name": "text"}}
+      ],
+      "outputs": [
+        {"name": "CONDITIONING", "type": "CONDITIONING", "links": null}
+      ],
+      "properties": {"Node name for S&R": "CLIPTextEncode"},
+      "widgets_values": [""]
+    }
+  ],
+  "links": [
+    [1, 1, 0, 2, 1, "STRING"]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}

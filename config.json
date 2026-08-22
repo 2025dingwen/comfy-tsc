@@ -1,0 +1,50 @@
+{
+  "llama_backend_url": "http://127.0.0.1:1233",
+  "llama_port": 1233,
+  "llama_server_exe": "F:/comflyui/ComfyUI/llama-b8966-bin-win-cuda-12.4-x64/llama-server.exe",
+  "llama_dir": "F:/comflyui/ComfyUI/llama-b8966-bin-win-cuda-12.4-x64",
+  "llama_threads": "8",
+  "craft_max_tokens": 2048,
+  "models": {
+    "qwen3.8-27b-ud-q2kxl": {
+      "label": "Qwen3.8-27B-UD-Q2_K_XL",
+      "model": "G:/AI_Models/LLM/qwen3.8/27b/Qwen3.8-27B-UD-Q2_K_XL.gguf",
+      "mmproj": "G:/AI_Models/LLM/qwen3.8/27b/mmproj-BF16.gguf",
+      "alias": "qwen3.8-27b-ud-q2kxl",
+      "ngl": "auto",
+      "ctx": "16384"
+    },
+    "qwen3.8-27b-ud-iq1m": {
+      "label": "Qwen3.8-27B-UD-IQ1_M",
+      "model": "G:/AI_Models/LLM/qwen3.8/27b/Qwen3.8-27B-UD-IQ1_M.gguf",
+      "mmproj": "G:/AI_Models/LLM/qwen3.8/27b/mmproj-BF16.gguf",
+      "alias": "qwen3.8-27b-ud-iq1m",
+      "ngl": "auto",
+      "ctx": "16384"
+    },
+    "qwen3.8-9b": {
+      "label": "Qwen3.8-9B",
+      "model": "G:/AI_Models/LLM/qwen3.8/9b/Qwen3.8-9B-Q8_0.gguf",
+      "mmproj": "",
+      "alias": "qwen3.8-9b",
+      "ngl": "99",
+      "ctx": "32768"
+    },
+    "qwen3.6-9b": {
+      "label": "Qwen3.6-9B",
+      "model": "G:/AI_Models/LLM/qwen3.6/qwen-9b/Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q6_K.gguf",
+      "mmproj": "G:/AI_Models/LLM/qwen3.6/qwen-9b/mmproj-BF16.gguf",
+      "alias": "qwen3.6-9b",
+      "ngl": "99",
+      "ctx": "32768"
+    },
+    "ornith-1.5-9b": {
+      "label": "Ornith-1.5-9B",
+      "model": "G:/AI_Models/LLM/Ornith/Ornith-1.5-9B-Q8_0.gguf",
+      "mmproj": "G:/AI_Models/LLM/Ornith/mmproj-Ornith-1.5-9B-BF16.gguf",
+      "alias": "ornith-1.5-9b",
+      "ngl": "99",
+      "ctx": "32768"
+    }
+  }
+}

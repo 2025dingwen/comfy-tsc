@@ -1,0 +1,19 @@
+[project]
+name = "comfy-tsc"
+description = "ComfyUI 提示词生成器：多风格 Prompt-Writer + Llama 模型选择 + 收藏"
+version = "1.0.0"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "Pillow>=9.0.0",
+    "numpy>=1.24.0",
+    "psutil>=5.9.0",
+]
+
+[project.urls]
+Repository = "https://github.com/yourname/comfy-tsc"
+
+[tool.comfy]
+PublisherId = "tsc"
+DisplayName = "comfy-tsc Prompt Writer"
+Icon = ""
