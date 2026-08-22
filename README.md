@@ -100,7 +100,8 @@ TSC 提示词·Llama 模型（加载 Llama 推理）
 - `data/llama_model.json` — 上次选用的模型
 
 ## 我的微信
-<img width="888" height="1131" alt="1b6d5e70ae429407b0bbcd2da3925db2" src="https://github.com/user-attachments/assets/15b647c1-0809-4551-9153-39dbc3cc871a" />
+<img width="648" height="693" alt="d87d2c6315a7b401b22bedcaa13dd7fb" src="https://github.com/user-attachments/assets/01efe808-2664-4faf-bbff-2eb7fecd4ee4" />
+
 
 
 ## 许可证
