@@ -3,7 +3,7 @@
 
 ComfyUI **自包含**提示词生成器：多风格 Prompt-Writer、Llama 模型选择、提示词收藏。
 
-需要正常运行这个插件，必须在本地机安装llama及加载本地开源模型，推荐使用qwen3.6-9b模型。
+需要正常运行这个插件，必须在本地机安装 llama-server + GGUF 模型，推荐使用qwen3.6-9b模型。
 
 **下载后复制到 `custom_nodes` 即可使用。
 
@@ -96,10 +96,10 @@ TSC 提示词·Llama 模型（加载 Llama 推理）
 
 唯一外部依赖：**本机 llama-server + GGUF 模型**（在 config.json 里配置路径）。
 
-## 数据文件（不提交 Git）
+## 数据文件
 
-- `config.json` — 本机配置
-- `data/favorites.json` — 收藏的提示词
+- `config.json` — 作者本机配置
+- `data/favorites.json` — 作者收藏的提示词
 - `data/llama_model.json` — 上次选用的模型
 
 ## 我的微信
