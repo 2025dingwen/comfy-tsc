@@ -1,8 +1,11 @@
 # comfy-tsc
+此提示词生成器完全在本地运行，不依赖云端模型及agent使用。
 
 ComfyUI **自包含**提示词生成器：多风格 Prompt-Writer、Llama 模型选择、提示词收藏。
 
-**不依赖 ideogram-imag**，克隆/下载后复制到 `custom_nodes` 即可使用。
+需要正常运行这个插件，必须在本地机安装llama及加载本地开源模型，推荐使用qwen3.6-9b模型。
+
+**下载后复制到 `custom_nodes` 即可使用。
 
 ## 安装
 
