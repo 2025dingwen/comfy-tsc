@@ -99,6 +99,10 @@ TSC 提示词·Llama 模型（加载 Llama 推理）
 - `data/favorites.json` — 收藏的提示词
 - `data/llama_model.json` — 上次选用的模型
 
+## 我的微信
+<img width="888" height="1131" alt="1b6d5e70ae429407b0bbcd2da3925db2" src="https://github.com/user-attachments/assets/15b647c1-0809-4551-9153-39dbc3cc871a" />
+
+
 ## 许可证
 
 MIT
